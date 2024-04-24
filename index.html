@@ -13,13 +13,21 @@
     <main>
         <h1>Code of conduct analyse</h1>
         <p>Deze website is gemaakt om code of conducts van bedrijven te analyseren. De code of conduct is een document waarin de regels en richtlijnen staan die worden gehanteerd. Deze website is gemaakt om de code of conduct te analyseren en te kijken welke regels en richtlijnen het meest voorkomen.</p>
-        <input type="file" name="file" id="file" accept=".txt">
-        <input type="submit" value="Upload" name="submit" onclick="analyze()">
-        <div id="output">
-            <h2>Resultaten</h2>
-            <p>De resultaten van de analyse zullen hier verschijnen.</p>
+        <label for="RegExpfileInput">
+            Selecteer .txt bestand met RegEpx<input type="file" id="RegExpfileInput">
+        </label>
+        <button onclick="loadFileRegExp()">Laad het RegExp Bestand</button>
+        <pre id="fileContent"></pre>
+        <br>
+        <label for="file">Selecteer alle documenten
+            <input type="file" name="file" id="file" accept=".txt" multiple>
+        </label>
+        <button type="button" onclick="analyze(event)">Analyseer alle bestanden</button>
+        <hr>
+        <div id="summaryOutput"></div>
+        <hr>
+        <div id="allOutputs"></div>
         </div>
-        <p id="text">The document will be displayed here.</p>
     </main>
     <footer>
         Created by Lodewijk Pet

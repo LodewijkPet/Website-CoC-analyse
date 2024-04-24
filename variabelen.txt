@@ -1,0 +1,45 @@
+Forced labor
+(debt )?bondage
+(abolition of )?(involuntary|indentured|bonded|forced|compulsory) (labou?r( convention)?|servitude)
+(modern )?slavery
+enslavement
+against (their|his|her) will
+voluntary employment
+employment is chosen freely
+bonded nor forced
+forced nor bonded
+Human trafficking
+(Human )?exploitation
+Exploitation
+forced labour
+
+Child labour
+(Worst Forms of )?child labou?r( convention)?
+Minimum age( convention)?
+minor( employees)?
+underage
+(employ )?children( employed)?
+
+Discrimination
+Discriminat(e|ion) (in)?\\(?employment and occupation\\)?( convention)?
+Equal (treatment|Remuneration)( convention)?
+
+Freedom of association & collective bargaining
+(form|join) a trade union
+freedom of Association
+the right to organise convention
+(Right to )?organi(s|z)e free(ly)?
+trade union rights
+workers?(’|')?( and employers(’|')?)? organi(s|z)ations?
+
+Collective bargaining
+bargain collectively
+Collective Bargaining
+Negotiate collectively
+Collective negotiation
+
+Health
+Healthy?
+
+Safety
+Safe(ty)?

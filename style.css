@@ -1,3 +1,144 @@
+/* Algemene basisstijlen */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #949494;
+    color: #333;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 32px;
+    text-align: center;
+}
+
+p, label {
+    font-size: 18px;
+}
+
+/* Stijlen voor input-elementen en knoppen */
+input[type="file"] {
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid #2980b9;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Highlight klasse voor het markeren van tekst */
 .highlight {
-    background-color: yellow; /* Of een andere opvallende kleur */
+    background-color: yellow;
+}
+
+/* Stijlen voor formuliersectie */
+#formSection {
+    background-color: #f0f4f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+#formSection:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+#questionContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#questionContainer > label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+#questionContainer > label > input {
+    margin-top: 5px;
+    display: block;
+}
+
+/* Container- en tabelstijlen */
+#allOutputs {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.containerDiv, .table {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.textParagraph {
+    max-height: 100px;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+/* Stijlen voor tabellen */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Stijlen voor de footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Stijlen voor hr */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #bdc3c7;
+    margin: 20px 0;
 }
